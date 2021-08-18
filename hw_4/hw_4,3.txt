@@ -1,0 +1,17 @@
+Добрый день!
+
+Я не понял что от меня хотят в 3 задании,
+но делал я следующее
+
+1) sudo nano /etc/ssh/sshd_config
+	PasswordAuntefications no
+2) systemctl restart sshd
+
+3) sudo nano /ets/ssh/sshd_config
+	PasswordAuntefications yes
+4) systemctl reload sshd
+
+
+Создал этот файл hw_4,3.txt с помощью cat > hw_4,3.txt  и завершил ctrl+d
+
+Ничего не понял из того что должен был понять :)
