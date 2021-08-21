@@ -9,4 +9,9 @@
 	file1 inode 1058177  
 	file2 inode 1058183  
 	file3 inode 1058187  
-	file4 inode 158177
+	file4 inode 1058177
+
+После удаления файла file1 (rm file1), 
+file2 и file4 имеют записанные данные внутри себя, 
+а файл file3 (Нет такого файла или каталога)
+
