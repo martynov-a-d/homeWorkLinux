@@ -1,0 +1,8 @@
+ls -l | awk -F' ' '{print $1,$3}'
+итого 
+-rw-rw-r-- lovealex574
+-rw-rw-r-- lovealex574
+drwxrwxr-x lovealex574
+-rw-rw-r-- lovealex574
+-rw-rw-r-- lovealex574
+-rw-rw-r-- lovealex574
