@@ -1,0 +1,9 @@
+Добрый день!
+
+1)	Использовал следующий набор команд: 
+"sudo -s nginx=stable add-apt-repository ppa:nginx/$nginx" 
+"apt update" 
+"apt install nginx"
+
+2)	Чтобы удалить пакеы nginx использовал команду: 
+"sudo dpkg -r nginx"
