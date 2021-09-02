@@ -1,1 +1,2 @@
-sudo snap install telegram-desktop
+1)	Установил телеграмм с утилитой snap
+"sudo snap install telegram-desktop"
