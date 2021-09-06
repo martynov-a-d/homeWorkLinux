@@ -1,0 +1,17 @@
+Добрый день!
+
+1) Создал файл file1 с произвольным текстом
+2) Копировал file1 в file2 (cp file1 file2)
+3) Создал символическую ссылку file3 на file1 (ln -s file1 file3)
+4) Создал жесткую ссылку file4 на файл file1 (ln file1 file4)
+
+Вывод inode (ls -li)
+	file1 inode 1058177  
+	file2 inode 1058183  
+	file3 inode 1058187  
+	file4 inode 1058177
+
+После удаления файла file1 (rm file1), 
+file2 и file4 имеют записанные данные внутри себя, 
+а файл file3 (Нет такого файла или каталога)
+

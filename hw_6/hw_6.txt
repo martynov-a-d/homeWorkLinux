@@ -1,0 +1,7 @@
+Добрый день!
+
+1) Создал файл hw_6,1.txt и с помощью скрипта убрал пустые строки 
+и все символы сделал заглавными и записал полученый результат в hw_6,1,upperCase.txt : 
+(cat hw_6,1.txt | tr -d '\n' | tr [:lower:] [:upper:] > hw_6,1,upperCase.txt)
+2) Создал директорию hw_6,2 и в ней создал директории год/месяц/день
+(for year in {2010..2017} ; do for mounth in {01..12} ; do for day in {01..30} ; do mkdir -p $year/$mounth/$day; done ; done ; done)

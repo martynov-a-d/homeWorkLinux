@@ -1,0 +1,11 @@
+Добрый день! 
+
+1) Создал 2 файла onlyRead и notThisDoor
+2) chmod g-rw notThisDoor
+3) chmod o-r notThisDoor
+4) chmod u+x onlyRead
+
+1) Создал 2 файла onlyReadNum и notThisDoorNum
+2) chmad 754 onlyReadNum
+3) chmod 600 notThisDoorNum
+

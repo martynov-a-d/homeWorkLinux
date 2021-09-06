@@ -1,0 +1,13 @@
+Тут должен появиться текст ошибки
+
+Команда «prin» не найдена. Возможно, вы имели в виду:
+
+  command 'grin' from snap grin (v5.1.0)
+  command 'grin' from snap grin (v5.1.0)
+  command 'grin' from snap grin (v2.1.1)
+  command 'erin' from snap erin (2.1.3)
+  command 'print' from deb mime-support (3.64ubuntu1)
+
+See 'snap info <snapname>' for additional versions.
+
+cat: etc: Нет такого файла или каталога

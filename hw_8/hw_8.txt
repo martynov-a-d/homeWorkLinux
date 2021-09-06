@@ -1,0 +1,7 @@
+Добрый день!
+
+1)	sudo docker search ubuntu  
+	sudo docker pull ubuntu  
+	sudo docker run ubuntu
+
+2)	sudo 

@@ -1,0 +1,11 @@
+Добрый день!
+
+Создал пользователя sudo useradd -mb /home -s /usr/bin/bash kirsty
+Удалил пользователя userdel -fr guess
+Проверка после каждого действия cat etc/passwd (из корневой директории /)
+
+Создал пользователя sudo adduser guess
+
+Создал группу sudo addgroup top
+Добавил группу пользователю sudo usermod -G -a top kirsty
+Удалил пользователя из группы sudo usermod -R top kirsty
